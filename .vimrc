@@ -67,6 +67,7 @@ nnoremap <leader>sh <Esc>:syntax sync clear<CR>
 vnoremap <leader>d :m '>+1<CR>gv=gv
 vnoremap <leader>u :m '<-2<CR>gv=gv
 
+inoremap <leader>rr <C-r>
 
 
 if has("nvim")
